@@ -1,0 +1,105 @@
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+body, html {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/****** HEADER ******/
+
+.header_inner {
+  /* width: 100%; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.header_logo {
+  vertical-align: top;
+  float: left;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.header_title {
+  /* float: right; */
+  font-size: 52px;
+  /* margin: 0.75em 0.25em; */
+  display: block;
+  /* color: #2d3c49; */
+}
+
+.header_subtitle {
+  font-size: 16px;
+  display: block;
+  /* float: left; */
+}
+
+h1, h3 {
+  text-transform: uppercase;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color: #02b3e4;
+}
+
+/****** CONTENT ******/
+/* .content {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.content, .content_image {
+  height: 100%;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.thumbnail {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  padding-left: 20px;
+  color: #7d97ad;
+}
+
+.featured_work, h3 {
+  /* font-family: fantasy; */
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.featured_work, p {
+  /* font-family: fantasy; */
+  font-size: 14px;
+  text-align: center;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
