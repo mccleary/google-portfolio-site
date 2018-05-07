@@ -5,59 +5,66 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:300" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <title>Portfolio Site</title>
   </head>
   <body>
 
-  
-      <header class="header">
-        <div class="header_inner">
-          <img class="header_logo" src="img/udacity_logo.png" alt="udacity logo"  width="130" height="100">
+    <header>
+      <div class="header_left">
+        <img class="header-logo" src="img/udacity_logo.png" alt="Udacity logo">
+      </div>
+      <div class="header_right">
         <h1 class="header_title">Jane Doette</h1>
-        <h1 class="header_subtitle">Front-End Ninja</h1>
-        <hr>
-        </div>
-      </header>
+        <h4 class="header_subtitle">Front-End Ninja</h4>
+      </div>
+      <hr>
+    </header>
 
-      <main>
-        <section class="content">
-          <section class="main_image">
-            <img class="content_image" src="img/laptop.jpg" alt="laptop">
-            <!-- "Photo credit: Ash Edmonds at Unsplash.com" -->
-          </section>
-          <section class="content_title">
-            <h2>Featured Work</h2>
-            <div class="row">
-              <div class="column">
-                <article class="featured_work image">
-                  <img class="thumbnail" src="img/laptop_coffee.jpg" alt="laptop and coffee">
-                  <h3>Appify</h3>
-                  <p>http://github.com/udacity/Appify/</p>
-                </article>
-              </div>
-
-              <div class="column">
-                <article class="featured_work image">
-                  <img class="thumbnail" src="img/laptop_coffee.jpg" alt="laptop and coffee">
-                  <h3>Sunflower</h3>
-                  <p>http://github.com/udacity/Sunflower/</p>
-                </article>
-              </div>
-
-              <div class="column">
-                <article class="featured_work image">
-                  <img class="thumbnail" src="img/laptop_coffee.jpg" alt="laptop and coffee">
-                  <h3>Bokeh</h3>
-                  <p>http://github.com/udacity/Bokeh/</p>
-                </article>
-              </div>
-            </div>
-          </section>
-
+    <main>
+      <!-- Main image -->
+      <section class="content">
+        <section class="main_image">
+          <img class="content_image" src="img/laptop.jpg" alt="laptop">
+          <!-- "Photo credit: Ash Edmonds at Unsplash.com" -->
         </section>
-      </main>
+      </section>
+
+      <!-- Featured Work Section -->
+      <section class="portfolio_title">
+        <h2>Featured Work</h2>
+
+          <div class="column">
+              <img class="thumbnail img-fluid" src="img/laptop_coffee.jpg" alt="laptop and coffee">
+              <h3>Appify</h3>
+              <p>http://github.com/udacity/Appify/</p>
+          </div>
+
+          <div class="column">
+              <img class="thumbnail img-fluid" src="img/laptop_coffee.jpg" alt="laptop and coffee">
+            <h3>Sunflower</h3>
+            <p>http://github.com/udacity/Sunflower/</p>
+          </div>
+
+          <div class="column">
+              <img class="thumbnail img-fluid" src="img/laptop_coffee.jpg" alt="laptop and coffee">
+            <h3>Bokeh</h3>
+            <p>http://github.com/udacity/Bokeh/</p>
+          </div>
+
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+      <p><span>Copyright ©</span>
+        2018. All Rights Reserved.
+      </p>
+    </footer>
+
 
   </body>
 </html>
